@@ -14,12 +14,12 @@ public class Problem2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        int sum = 0;
+        int sum = 0; // defining sum as 0
         for (int i = 0; i < n; i++) {
-            sum += scanner.nextInt();
+            sum += scanner.nextInt(); // adding numbers to sum
         }
-        double average = (double) sum / n;
-        System.out.println(average);
+        double average = (double) sum / n; // calculating average of sum
+        System.out.println(average); // displaying average
 
         scanner.close();
     }

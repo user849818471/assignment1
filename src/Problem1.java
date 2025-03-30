@@ -13,15 +13,15 @@ import java.util.Scanner;
 public class Problem1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int min = Integer.MAX_VALUE;
+        int n = scanner.nextInt(); // entering n (number of iterations)
+        int min = Integer.MAX_VALUE; // applying max value to min variable
         for (int i = 0; i < n; i++) {
-            int num = scanner.nextInt();
+            int num = scanner.nextInt(); // entering numbers
             if (num < min) {
-                min = num;
+                min = num; // if entered number is less than min, min variable will be updated to num
             }
         }
-        System.out.println(min);
+        System.out.println(min); // displaying minimum
         scanner.close();
     }
 }

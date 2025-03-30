@@ -16,12 +16,12 @@ public class Problem5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        System.out.println(fib(n));
+        System.out.println(fib(n)); //calling recursive function to find fibonacci
     }
 
     public static int fib(int n) {
-        if (n == 0) return 0;
-        if (n == 1) return 1;
-        return fib(n - 1) + fib(n - 2);
+        if (n == 0) return 0; // basic case
+        if (n == 1) return 1; // basic case
+        return fib(n - 1) + fib(n - 2); // calculating fibonacci number until n is not 1 or 0
     }
 }

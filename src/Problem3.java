@@ -23,7 +23,7 @@ public class Problem3 {
         }
 
         for (int i = 2; i <= Math.sqrt(n); i++) {
-            if (n % i == 0) {
+            if (n % i == 0) { // checking for having a divider
                 System.out.println("Composite");
                 return; // If divider was found, ending the programm
             }
