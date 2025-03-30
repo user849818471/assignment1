@@ -20,7 +20,5 @@ public class Problem2 {
         }
         double average = (double) sum / n; // calculating average of sum
         System.out.println(average); // displaying average
-
-        scanner.close();
     }
 }

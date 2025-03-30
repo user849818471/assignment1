@@ -8,17 +8,13 @@
   @return The nth Fibonacci number.
  */
 
-
-
 import java.util.Scanner;
-
 public class Problem5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         System.out.println(fib(n)); //calling recursive function to find fibonacci
     }
-
     public static int fib(int n) {
         if (n == 0) return 0; // basic case
         if (n == 1) return 1; // basic case

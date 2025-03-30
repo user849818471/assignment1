@@ -22,6 +22,5 @@ public class Problem1 {
             }
         }
         System.out.println(min); // displaying minimum
-        scanner.close();
     }
 }
